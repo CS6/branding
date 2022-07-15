@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Badge({ url = 'https://twitter.com/pmndrs', ...props }) {
+export function Badge({ url = 'https://twitter.com/dayuan', ...props }) {
   return (
     <a href={url} aria-label="Poimandres on Twitter" {...props}>
       <svg aria-hidden="true" width="150" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">

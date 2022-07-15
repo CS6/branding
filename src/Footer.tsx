@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from './Logo'
+import { Logo, LogoPng } from './Logo'
 
 type Props = {
   date: string
@@ -10,16 +10,17 @@ type Props = {
 
 export function Footer({ date, year, link1, link2 }: Props) {
   return (
-    <div className="pmndrs-menu">
+    <div className="dayuan-menu">
       <div>
-        <Logo style={{ width: 42, height: 42 }} color="#b0b0b0" />
+        <LogoPng style={{ width: 42, height: 42 }} color="#b0b0b0" />
+        {/* <Logo style={{ width: 42, height: 42 }} color="#b0b0b0" /> */}
       </div>
       <div>
         <span>
-          <b>poimandres</b>
+          <b>DaYuan.dev</b>
         </span>
-        <a href="https://pmnd.rs">pmndrs.rs</a>
-        <a href="https://twitter.com/pmndrs">@pmndrs</a>
+        <a href="https://dayuan.dev/">dayuan.dev</a>
+        <a href="https://twitter.com/BIG6_zh">@BIG6_zh</a>
       </div>
       <div>
         <span>{date}</span>

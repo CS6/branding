@@ -1,5 +1,5 @@
 {
-  "name": "@pmndrs/branding",
+  "name": "@CS6/branding",
   "version": "0.0.8",
   "description": "",
   "main": "dist/index.cjs.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmndrs/branding.git"
+    "url": "git+https://github.com/CS6/branding.git"
   },
   "author": "Paul Henschel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmndrs/branding/issues"
+    "url": "https://github.com/CS6/branding/issues"
   },
-  "homepage": "https://github.com/pmndrs/branding#readme",
+  "homepage": "https://github.com/CS6/branding#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

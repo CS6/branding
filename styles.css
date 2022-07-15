@@ -1,6 +1,6 @@
 @import url('https://rsms.me/inter/inter.css');
 
-.pmndrs-menu {
+.dayuan-menu {
   font-family: 'Inter var', sans-serif;
   position: absolute;
   top: 0;
@@ -18,7 +18,7 @@
   line-height: 1.5em;
 }
 
-.pmndrs-menu > div {
+.dayuan-menu > div {
   word-wrap: none;
   word-break: none;
   white-space: pre;
@@ -30,19 +30,19 @@
   flex-direction: column;
 }
 
-.pmndrs-menu > div b {
+.dayuan-menu > div b {
   font-weight: 600;
   color: #b0b0b0;
 }
 
-.pmndrs-menu a {
+.dayuan-menu a {
   pointer-events: all;
   cursor: pointer;
   color: inherit;
   text-decoration: none;
 }
 
-.pmndrs-menu a:hover {
+.dayuan-menu a:hover {
   text-decoration: underline;
   color: inherit;
 }

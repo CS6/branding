@@ -23,3 +23,7 @@ export function LogoFull({ color = 'black', ...props }) {
     </svg>
   )
 }
+
+export function LogoPng({ color = 'black', ...props }) {
+  return <img {...props} src={require('../neko.png')} alt="neko" />
+}
